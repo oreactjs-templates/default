@@ -1,0 +1,3 @@
+mutation CREATE_USER($displayName:String, $email:String, $password: String){
+    createUser(displayName: $displayName, email: $email, password: $password)
+}

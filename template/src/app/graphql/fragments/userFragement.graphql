@@ -1,0 +1,4 @@
+fragment userFragement on User {
+    _id
+    displayName
+}

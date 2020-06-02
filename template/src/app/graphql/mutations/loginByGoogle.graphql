@@ -1,0 +1,3 @@
+mutation LOGIN_BY_GOOGLE($accessToken:String){
+    loginByGoogle(accessToken: $accessToken)
+}

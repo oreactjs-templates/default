@@ -1,0 +1,6 @@
+#import "../fragments/userFragement.graphql"
+query GET_USER($userId:MongoID!){
+    getUser(_id: $userId){
+        ...userFragement
+    }
+}

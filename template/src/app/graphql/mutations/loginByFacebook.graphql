@@ -1,0 +1,3 @@
+mutation LOGIN_BY_FACEBOOK($accessToken:String){
+    loginByFacebook(accessToken: $accessToken)
+}
