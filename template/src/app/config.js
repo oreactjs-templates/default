@@ -2,7 +2,7 @@ export default {
     defaultSettings: {
         layout: {
             type: 'default', // default Layout
-            config: {} // 
+            config: {} //
         },
         customScrollbars: true,
         theme: {

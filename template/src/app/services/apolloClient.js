@@ -31,23 +31,7 @@ export const getApolloClient = () => {
         // API server, so we need to ensure it isn't firewalled, etc
         link: middlewareLink.concat(httpLink),
         cache: new InMemoryCache().restore(window.__SERVER_STATE__),
-        ssrForceFetchDelay: 100,
-        resolvers: {
-            /*Mutation : {
-                addUploadedPhoto: (_root, variables, {cache, getCacheKey}) => {
-
-                    const currentPage = client.query({ query: GET_USER_PHOTOS, variables: {
-                            perPage: 20,
-                            page: 1,
-                            sort: 'USERID__CREATEDAT_DESC'
-                        }}).then(result => {
-                            console.log(result);
-                        });
-
-
-                }
-            }*/
-        }
+        ssrForceFetchDelay: 100
     });
 
     // Set global client object
