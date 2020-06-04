@@ -10,10 +10,10 @@
         "bundle-report": "webpack-bundle-analyzer build/chunks.json -m static -r build/bundle-stats.html -O"
     },
     "dependencies": {
-        "@oreact/core": "^0.1.4",
-        "@oreact/express": "^0.1.0",
-        "@oreact/ui": "^0.1.2",
-        "@oreact/use": "^0.1.0",
+        "@oreact/core": "^0.1.6",
+        "@oreact/express": "^0.1.1",
+        "@oreact/ui": "^0.1.3",
+        "@oreact/use": "^0.1.1",
         "apollo-cache-inmemory": "^1.6.5",
         "apollo-client": "^2.6.8",
         "apollo-link-http": "^1.5.16",
@@ -54,8 +54,8 @@
         "apollo-link": "^1.2.12"
     },
     "devDependencies": {
-        "babel-preset-oreact": "^0.1.1",
-        "razzle-plugin-oreact": "^0.1.0",
+        "babel-preset-oreact": "^0.1.2",
+        "razzle-plugin-oreact": "^0.1.1",
         "razzle-plugin-svgr": "^1.0.2"
     },
     "engines": {
